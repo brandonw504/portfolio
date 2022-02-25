@@ -4,7 +4,10 @@ import Title from './title'
 import Experience from './experience'
 import Projects from './projects'
 import Skills from './skills'
-import styles from '../styles/Home.module.css'
+
+const prefix = '/portfolio';
+
+import styles from prefix + '../styles/Home.module.css'
 
 export default function Home() {
     return (

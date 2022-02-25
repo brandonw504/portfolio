@@ -2,7 +2,9 @@ import { useEffect } from 'react'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
-import styles from '../styles/skills.module.css'
+const prefix = '/portfolio';
+
+import styles from prefix + '../styles/skills.module.css'
 
 function Skills() {
     useEffect(() => {
