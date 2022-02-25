@@ -2,9 +2,7 @@ import { useEffect } from 'react'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
-const prefix = '/portfolio';
-
-import styles from prefix + '../styles/title.module.css'
+import styles from '../styles/title.module.css'
 
 function Title() {
     useEffect(() => {

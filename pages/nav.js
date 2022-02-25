@@ -5,9 +5,7 @@ import { useEffect, useState } from 'react';
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
-const prefix = '/portfolio';
-
-import styles from prefix + '../styles/nav.module.css'
+import styles from '../styles/nav.module.css'
 
 function Nav() {
     useEffect(() => {
