@@ -13,7 +13,7 @@ function Projects() {
         <div className={styles.container}>
             <h2 data-aos="fade-right">Projects</h2>
             <h3 data-aos="fade-right">Field Event Tracker</h3>
-            <p data-aos="fade-right" className={styles.subheading}>SwiftUI</p>
+            <p data-aos="fade-right" className={styles.subheading}>Swift and SwiftUI</p>
             <ul>
                 <li data-aos="fade-right">Developed an iOS app to collect marks for field events in track and field</li>
                 <li data-aos="fade-right">Created an intuitive user interface with SwiftUI</li>
