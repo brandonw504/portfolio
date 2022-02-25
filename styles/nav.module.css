@@ -104,7 +104,7 @@
         transition: all 0.2s ease;
     }
 
-    .hamburger:hover {
+    .hamburger:hover, .hamburger:focus {
         color: white;
         transform: scale(125%);
     }
@@ -171,7 +171,7 @@
         transition: all 0.2s ease;
     }
     
-    .icon:hover {
+    .icon:hover, .icon:focus {
         color: white;
         transform: scale(125%);
     }

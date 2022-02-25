@@ -7,6 +7,8 @@ import 'aos/dist/aos.css'
 
 import styles from '../styles/nav.module.css'
 
+const prefix = '/portfolio';
+
 function Nav() {
     useEffect(() => {
         Aos.init({ duration: 1000 });
@@ -42,11 +44,11 @@ function Nav() {
                         <li><a className={styles.listItem} href='#experience' onClick={closeMobileMenu}>EXPERIENCE</a></li>
                         <li><a className={styles.listItem} href='#projects' onClick={closeMobileMenu}>PROJECTS</a></li>
                         <li><a className={styles.listItem} href='#skills' onClick={closeMobileMenu}>SKILLS</a></li>
-                        <li><a className={styles.listItem} href='/resume.pdf' target="blank" onClick={closeMobileMenu}>RESUME</a></li>
+                        <li><a className={styles.listItem} href={prefix + '/resume.pdf'} target="blank" onClick={closeMobileMenu}>RESUME</a></li>
                     </ul>
                     <ul className={styles.socials} data-aos="fade-bottom" visible={click}>
-                        <li><a className={styles.socialItem} href='https://github.com/brandonw504' target="blank"><AiFillGithub className={styles.icon} size={40}/></a></li>
-                        <li><a className={styles.socialItem} href='https://www.linkedin.com/in/brandonw504' target="blank"><AiFillLinkedin className={styles.icon} size={40}/></a></li>
+                        <li><a className={styles.socialItem} href='https://github.com/brandonw504' target="blank" onClick={closeMobileMenu}><AiFillGithub className={styles.icon} size={40}/></a></li>
+                        <li><a className={styles.socialItem} href='https://www.linkedin.com/in/brandonw504' target="blank" onClick={closeMobileMenu}><AiFillLinkedin className={styles.icon} size={40}/></a></li>
                     </ul>
                 </div>
                 <a href='#title'><AiOutlineArrowUp className={styles.top} size={40}/></a>
