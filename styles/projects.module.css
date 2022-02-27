@@ -14,3 +14,13 @@
 .subheading {
     color: gray;
 }
+
+.link {
+    text-decoration: underline;
+    transition: all 0.2s ease;
+}
+
+.link:hover {
+    color: white;
+    transform: scale(110%);
+}
