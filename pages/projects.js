@@ -19,7 +19,7 @@ function Projects() {
                 <li data-aos="fade-right">Created an intuitive user interface with SwiftUI</li>
                 <li data-aos="fade-right">Greatly improved efficiency in recording and ranking athletes&apos; marks at meets by switching from paper to a digital medium</li>
             </ul>
-            <p data-aos="fade-right" className={styles.link}><a href='https://github.com/brandonw504/field-event-tracker'>Repository Link</a></p>
+            <p data-aos="fade-right"><a href='https://github.com/brandonw504/field-event-tracker' target="blank" className={styles.link}>Repository Link</a></p>
 
             <h3 data-aos="fade-right">Game of Thrones Character Database</h3>
             <p data-aos="fade-right" className={styles.subheading}>Next.js</p>
@@ -27,7 +27,7 @@ function Projects() {
                 <li data-aos="fade-right">Created an interactive Game of Thrones character database in a Next.js website</li>
                 <li data-aos="fade-right">Implemented a responsive search bar using React Hooks </li>
             </ul>
-            <p data-aos="fade-right" className={styles.link}><a href='https://github.com/brandonw504/search-got'>Repository Link</a></p>
+            <p data-aos="fade-right"><a href='https://github.com/brandonw504/search-got' target="blank" className={styles.link}>Repository Link</a></p>
         </div>
     )
 }
