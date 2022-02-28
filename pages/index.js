@@ -1,3 +1,5 @@
+import { useEffect } from 'react';
+import * as smoothscroll from 'smoothscroll-polyfill';
 import Head from 'next/head'
 import Nav from './nav'
 import Title from './title'
@@ -9,6 +11,10 @@ import Education from './education'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+    useEffect(() => {
+        smoothscroll.polyfill();
+    }, [])
+
     return (
         <div className={styles.wrapper}>
             <Head>
