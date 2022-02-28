@@ -44,6 +44,7 @@ function Nav() {
                         <li><a className={styles.listItem} href='#experience' onClick={closeMobileMenu}>EXPERIENCE</a></li>
                         <li><a className={styles.listItem} href='#projects' onClick={closeMobileMenu}>PROJECTS</a></li>
                         <li><a className={styles.listItem} href='#skills' onClick={closeMobileMenu}>SKILLS</a></li>
+                        <li><a className={styles.listItem} href='#education' onClick={closeMobileMenu}>EDUCATION</a></li>
                         <li><a className={styles.listItem} href={prefix + '/resume.pdf'} target="blank" onClick={closeMobileMenu}>RESUME</a></li>
                     </ul>
                     <ul className={styles.socials} data-aos="fade-bottom" visible={click}>

@@ -12,9 +12,9 @@ function Skills() {
     return (
         <div className={styles.container}>
             <h2 data-aos="fade-right">Skills</h2>
-            <p data-aos="fade-right">Git, iOS development, Web development</p>
-            <p data-aos="fade-right">Languages: C++, C, Swift, Java, HTML, CSS, Javascript, Python</p>
-            <p data-aos="fade-right">Frameworks: SwiftUI, React, Next.js, Tensorflow</p>
+            <p data-aos="fade-right">&emsp;Git, iOS development, Web development</p>
+            <p data-aos="fade-right">&emsp;Languages: C++, C, Swift, Java, HTML, CSS, Javascript, Python</p>
+            <p data-aos="fade-right">&emsp;Frameworks: SwiftUI, React, Next.js, Tensorflow</p>
         </div>
     )
 }

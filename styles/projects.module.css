@@ -13,11 +13,12 @@
 
 .subheading {
     color: gray;
+    padding: 0;
+    margin-top: -1em;
 }
 
 .link {
     text-decoration: underline;
-    padding-bottom: 0.5em;
     transition: all 0.2s ease;
 }
 

@@ -4,6 +4,7 @@ import Title from './title'
 import Experience from './experience'
 import Projects from './projects'
 import Skills from './skills'
+import Education from './education'
 
 import styles from '../styles/Home.module.css'
 
@@ -31,6 +32,10 @@ export default function Home() {
                 
                 <section id='skills'>
                     <Skills />
+                </section>
+
+                <section id='education'>
+                    <Education />
                 </section>
             </div>
             <div className={styles.footer}></div>
