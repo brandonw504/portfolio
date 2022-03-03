@@ -12,7 +12,7 @@ function Experience() {
     return (
         <div className={styles.container}>
             <h2 data-aos="fade-right" data-aos-once="true">Experience</h2>
-            <h3 data-aos="fade-right" data-aos-once="true">Front-End Developer at #include</h3>
+            <h3 data-aos="fade-right" data-aos-once="true">Software Engineer at #include</h3>
             <p data-aos="fade-right" data-aos-once="true" className={styles.subheading}>September 2021 - Present</p>
             <ul>
                 <li data-aos="fade-right" data-aos-once="true">Created a dynamic art gallery website with expandable information about each piece</li>

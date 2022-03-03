@@ -14,7 +14,7 @@ function Skills() {
             <h2 data-aos="fade-right" data-aos-once="true">Skills</h2>
             <p data-aos="fade-right" data-aos-once="true">&emsp;Git, iOS development, Web development</p>
             <p data-aos="fade-right" data-aos-once="true">&emsp;Languages: C++, C, Swift, Java, HTML, CSS, Javascript, Python</p>
-            <p data-aos="fade-right" data-aos-once="true">&emsp;Frameworks: SwiftUI, React, Next.js, Tensorflow</p>
+            <p data-aos="fade-right" data-aos-once="true">&emsp;Libraries/Frameworks: SwiftUI, React, Next.js, Tensorflow</p>
         </div>
     )
 }

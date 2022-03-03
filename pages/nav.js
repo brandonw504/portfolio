@@ -35,7 +35,7 @@ function Nav() {
     }
 
     return (
-        <div className={styles.wrapper}>
+        <div>
             <nav className={styles.navbar}>
                 <MenuButton />
                 <div className={styles.container} visible={click}>
@@ -48,11 +48,11 @@ function Nav() {
                         <li><a className={styles.listItem} href={prefix + '/resume.pdf'} target="blank" onClick={closeMobileMenu}>RESUME</a></li>
                     </ul>
                     <ul className={styles.socials} data-aos="fade-bottom" visible={click}>
-                        <li><a className={styles.socialItem} href='https://github.com/brandonw504' target="blank" onClick={closeMobileMenu}><AiFillGithub className={styles.icon} size={40}/></a></li>
-                        <li><a className={styles.socialItem} href='https://www.linkedin.com/in/brandonw504' target="blank" onClick={closeMobileMenu}><AiFillLinkedin className={styles.icon} size={40}/></a></li>
+                        <li><a className={styles.socialItem} href='https://github.com/brandonw504' target="blank" onClick={closeMobileMenu}><AiFillGithub className={styles.icon} size={40} /></a></li>
+                        <li><a className={styles.socialItem} href='https://www.linkedin.com/in/brandonw504' target="blank" onClick={closeMobileMenu}><AiFillLinkedin className={styles.icon} size={40} /></a></li>
                     </ul>
                 </div>
-                <a href='#title'><AiOutlineArrowUp className={styles.top} size={40}/></a>
+                <a href='#title'><AiOutlineArrowUp className={styles.top} size={40} /></a>
             </nav>
         </div>
     )
