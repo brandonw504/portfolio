@@ -12,10 +12,10 @@ function Education() {
     return (
         <div className={styles.container}>
             <h2 data-aos="fade-right" data-aos-once="true">Education</h2>
-            <h3 data-aos="fade-right" data-aos-once="true">Bachelor of Computer Science (in progress)</h3>
+            <h3 data-aos="fade-right" data-aos-once="true">Computer Science, B.S. (in progress)</h3>
             <h4 data-aos="fade-right" data-aos-once="true">University of California, Davis</h4>
             <p data-aos="fade-right" data-aos-once="true">&emsp;Expected Graduation: June 2024</p>
-            <p data-aos="fade-right" data-aos-once="true">&emsp;GPA: 3.79</p>
+            <p data-aos="fade-right" data-aos-once="true">&emsp;GPA: 3.82</p>
 
             <h3 data-aos="fade-right" data-aos-once="true">High School</h3>
             <h4 data-aos="fade-right" data-aos-once="true">Evergreen Valley High School</h4>
@@ -27,11 +27,11 @@ function Education() {
                 <li data-aos="fade-right" data-aos-once="true">Object-Oriented Programming in C++</li>
                 <li data-aos="fade-right" data-aos-once="true">Programming in C</li>
                 <li data-aos="fade-right" data-aos-once="true">Programming in Java</li>
-                <li data-aos="fade-right" data-aos-once="true">Computer Organization and Machine-Dependent Programming (in progress)</li>
+                <li data-aos="fade-right" data-aos-once="true">Computer Organization and Machine-Dependent Programming</li>
                 <li data-aos="fade-right" data-aos-once="true">Discrete Math</li>
                 <li data-aos="fade-right" data-aos-once="true">Calculus 1, 2, and 3</li>
                 <li data-aos="fade-right" data-aos-once="true">Statistics</li>
-                <li data-aos="fade-right" data-aos-once="true">Linear Algebra (in progress)</li>
+                <li data-aos="fade-right" data-aos-once="true">Linear Algebra</li>
             </ul>
         </div>
     )
