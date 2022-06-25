@@ -15,7 +15,7 @@ function Education() {
             <h3 data-aos="fade-right" data-aos-once="true">Computer Science, B.S. (in progress)</h3>
             <h4 data-aos="fade-right" data-aos-once="true">University of California, Davis</h4>
             <p data-aos="fade-right" data-aos-once="true">&emsp;Expected Graduation: June 2024</p>
-            <p data-aos="fade-right" data-aos-once="true">&emsp;GPA: 3.82</p>
+            <p data-aos="fade-right" data-aos-once="true">&emsp;GPA: 3.85</p>
 
             <h3 data-aos="fade-right" data-aos-once="true">High School</h3>
             <h4 data-aos="fade-right" data-aos-once="true">Evergreen Valley High School</h4>
